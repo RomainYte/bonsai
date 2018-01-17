@@ -1,0 +1,76 @@
+.container-fluid{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.row{
+  margin: 0;
+}
+
+.backgroundbleu {
+  background-image: url(./ressources/payments-banner-graphic.png);
+  padding-bottom: 250px;
+}
+
+
+.navbar {
+  height: 150px;
+}
+
+.logoB {
+  height: 50px;
+}
+.bonsaititre {
+  line-height: 5em;
+}
+
+.btn {
+    padding: 4px 72px;
+    font-size: 20px;
+    color: #7B7BAD;
+}
+
+.section1 {
+
+  margin-top: 3em;
+  margin-bottom: 10em;
+  border-bottom: 1px solid #7B7BAD;
+  padding: 10em;
+}
+
+.bggris {
+  background-color: #F6F9FB;
+  padding: 8em;
+}
+
+.bgcredcard {
+  font-size: 1.5em;
+  color: white;
+  background-color: #4C535C;
+  padding: 1em;
+}
+
+.ready {
+  font-size: 1.5em;
+  padding: 5em;
+  border-top: 1px solid #DDDDDD;
+}
+
+.boutonchiant {
+  color:white;
+  padding: 4px 72px;
+  font-size: 20px;
+}
+
+.card-graphic{
+  height: 50vh;
+  background: #7CD5EF;
+  overflow: hidden;
+}
+.card-graphic .img-graphic{
+  width: 70%;
+}
+
+.article2 {
+  background-color: #8080BE;
+}
