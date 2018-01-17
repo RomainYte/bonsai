@@ -63,14 +63,26 @@
 }
 
 .card-graphic{
-  height: 50vh;
+  height: 90vh;
   background: #7CD5EF;
   overflow: hidden;
+
 }
 .card-graphic .img-graphic{
   width: 70%;
+  margin-left: 5em;
+  margin-top: 5em;
 }
 
 .article2 {
   background-color: #8080BE;
+  overflow: hidden;
+
+}
+
+.img-graphic {
+  margin-left: 1.5em;
+  margin-top: 15em;
+  transform: translateY(2%);
+
 }
