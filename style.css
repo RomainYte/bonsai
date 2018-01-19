@@ -7,18 +7,27 @@
   margin: 0;
 }
 
+.icon-bar{
+  background-color: white;
+}
+
+#menu-burger{
+  width: 50%;
+  position: absolute;
+  right: 0px;
+}
+
 .backgroundbleu {
   background-image: url(./ressources/payments-banner-graphic.png);
   padding-bottom: 250px;
 }
-
 
 .navbar {
   height: 150px;
 }
 
 .logoB {
-  height: 50px;
+  height: 40px;
 }
 .bonsaititre {
   line-height: 5em;
@@ -33,7 +42,6 @@
 .section1 {
 
   margin-top: 3em;
-  margin-bottom: 10em;
   border-bottom: 1px solid #7B7BAD;
   padding: 10em;
 }
@@ -61,17 +69,45 @@
   padding: 4px 72px;
   font-size: 20px;
 }
+.dollar{
+  text-align: right;
+  font-size: 5em;
+  color: #8080BE;
+}
+.ppi{
+  margin-top: 2em;
+
+}
+.carre, .carre-reverse{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.carre-reverse{
+  flex-direction: row-reverse;
+}
+
+@media (max-width:961px){
+  .carre-reverse{
+    flex-direction: row;
+  }
+}
 
 .card-graphic{
-  height: 90vh;
+  height: 66vh;
   background: #7CD5EF;
   overflow: hidden;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 0;
 }
 .card-graphic .img-graphic{
   width: 70%;
-  margin-left: 5em;
-  margin-top: 5em;
+  align-self: flex-end;
+  transform: translateY(20%);
 }
 
 .article2 {
@@ -80,9 +116,26 @@
 
 }
 
-.img-graphic {
-  margin-left: 1.5em;
-  margin-top: 15em;
-  transform: translateY(2%);
+.presquefooter {
+  font-size: 18px;
+  color: white;
+  background-color: #242629;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
 
+.footer {
+  color: white;
+  background-color: #242629;
+}
+
+.col-md-4 {
+  padding-left: 0;
+}
+
+.logofoot img {
+  padding-left: 4em;
+}
+.boiteicone {
+  color: white;
 }
